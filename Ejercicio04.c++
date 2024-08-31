@@ -12,3 +12,13 @@ int invertirNumero(int n) {
     return invertido;
 }
 
+int main() {
+    int num;
+    cout << "Ingresa un numero entero: ";
+    cin >> num;
+
+    int numInvertido = invertirNumero(num);
+    cout << "El numero invertido es: " << numInvertido << endl;
+
+    return 0;
+}
