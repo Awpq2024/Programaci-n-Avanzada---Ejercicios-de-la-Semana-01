@@ -10,7 +10,7 @@ int main()
     cin >> num;
     resultado = invertir(num);
     cout << "Numero introducido: " << num << endl;
-    cout << "Numero con las cifras invertidas: "; << resultado << emdl;
+    cout << "Numero con las cifras invertidas: " << resultado << emdl;
     system ("pause");
 }
 unt invertir (int num)
