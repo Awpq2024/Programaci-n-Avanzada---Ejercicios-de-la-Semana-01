@@ -5,7 +5,7 @@ int invertir (int);
 int main() 
 {
     int num;
-    resultado;
+    int resultado;
     cout << "Introduce un numero entero: ";
     cin >> num;
     resultado = invertir(num);
