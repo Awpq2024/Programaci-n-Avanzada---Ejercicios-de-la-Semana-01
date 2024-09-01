@@ -1,24 +1,26 @@
 //Ejercicio 04
 #include <iostream>
 using namespace std;
-
-// Función que invierte las cifras del numero
-int invertirNumero(int n) {
-    int invertido = 0;
-    while (n != 0) {
-        invertido = invertido * 10 + n % 10;
-        n /= 10;
-    }
-    return invertido;
-}
-
-int main() {
+int invertir (int);
+int main() 
+{
     int num;
-    cout << "Ingresa un numero entero: ";
+    resultado;
+    cout << "Introduce un numero entero: ";
     cin >> num;
-
-    int numInvertido = invertirNumero(num);
-    cout << "El numero invertido es: " << numInvertido << endl;
-
-    return 0;
+    resultado = invertir(num);
+    cout << "Numero introducido: " << num << endl;
+    cout << "Numero con las cifras invertidas: "; << resultado << emdl;
+    system ("pause");
+}
+unt invertir (int num)
+{
+    int inverso = 0 , cifras;
+    while (num != 0)
+        {
+            cifra = num % 10;
+            inverso = inverso * 10 + cifra;
+            num = num / 10;
+        }
+    return inverso;
 }
